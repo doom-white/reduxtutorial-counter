@@ -8,7 +8,7 @@ import "bootstrap/dist/js/bootstrap.min.js";
 import "./assets/css/general.css";
 import "./assets/fonts/DS-DIGIB.TTF";
 
-const store = GeneralStore();
+const store = GeneralStore;
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
